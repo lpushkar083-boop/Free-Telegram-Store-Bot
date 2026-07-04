@@ -11,13 +11,13 @@ class Settings:
     """Stores all configuration settings for the bot."""
 
     # Telegram Bot Settings
-    BOT_TOKEN = os.getenv('BOT_TOKEN')
-    ADMIN_TELEGRAM_ID = int(os.getenv('ADMIN_TELEGRAM_ID', 0))
-    ADMIN_TELEGRAM_USERNAME = os.getenv('ADMIN_TELEGRAM_USERNAME', '')
+    BOT_TOKEN = os.getenv('8852728857:AAEx6F5RgC5ngRj1MsgBmuxFn9QCbOpXuoQ')
+    ADMIN_TELEGRAM_ID = int(os.getenv('ADMIN_TELEGRAM_ID',7006505949))
+    ADMIN_TELEGRAM_USERNAME = os.getenv('ADMIN_TELEGRAM_USERNAME',pushkar '')
 
     # Database Settings
     DATABASE_URL = os.getenv('DATABASE_URL', 'sqlite:///bot_database.db')
-
+i
     # Crypto Payment Settings
     CRYPTO_BOT_API_KEY = os.getenv('CRYPTO_BOT_API_KEY', '')
 
